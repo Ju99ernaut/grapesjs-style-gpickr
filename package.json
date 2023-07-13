@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-style-gpickr",
+  "version": "1.0.1",
+  "description": "Grapesjs Style Gpickr",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ju99ernaut/grapesjs-style-gpickr.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^4.1.1"
+  },
+  "license": "MIT"
+}
