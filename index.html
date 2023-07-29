@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Grapesjs Style Gpickr</title>
+    <link
+      href="https://unpkg.com/grapesjs/dist/css/grapes.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/grapesjs"></script>
+    <script src="dist/index.js"></script>
+    <script src="https://unpkg.com/gpickr@1.0.0/dist/gpickr.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/gpickr@1.0.0/dist/gpickr.min.css"
+    />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gjs" style="height: 0px; overflow: hidden">
+      <div style="margin: 100px 100px 25px; padding: 25px; font: caption">
+        This is a demo content from _index.html. You can use this template file
+        for development purpose. It won't be stored in your git repository
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // Wait for the plugin to be injected by the dev server
+      setTimeout(() => {
+        window.editor = grapesjs.init({
+          height: "100%",
+          container: "#gjs",
+          showOffsets: true,
+          fromElement: true,
+          noticeOnUnload: false,
+          storageManager: false,
+          plugins: ["grapesjs-style-gpickr"],
+          pluginsOpts: {
+            "grapesjs-style-gpickr": {
+              /* Test here your options  */
+            },
+          },
+        });
+      }, 100);
+    </script>
+  </body>
+</html>

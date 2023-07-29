@@ -1,3 +1,4 @@
+import styleBg from "./styleBg";
 import styleGpickr from "./styleGpickr";
 
 export default (editor, opts = {}) => {
@@ -8,5 +9,6 @@ export default (editor, opts = {}) => {
     ...opts,
   };
 
-  styleGpickr(editor, options);
+  window.GPickr && styleGpickr(editor, options); //opts.gpOpts);
+  styleBg(editor, options); //opts.bgOpts);
 };

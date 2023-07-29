@@ -1,9 +1,8 @@
 # Grapesjs Style Gpickr
 
-[DEMO](##)
-> **Provide a live demo of your plugin**
-For a better user engagement create a simple live demo by using services like [JSFiddle](https://jsfiddle.net) [CodeSandbox](https://codesandbox.io) [CodePen](https://codepen.io) and link it here in your README (attaching a screenshot/gif will also be a plus).
-To help you in this process here below you will find the necessary HTML/CSS/JS, so it just a matter of copy-pasting on some of those services. After that delete this part and update the link above
+[DEMO](https://blocomposer.app)
+
+Adds a gradient picker for adding background gradients. To setup correctly check index.html
 
 ### HTML
 ```html
@@ -37,14 +36,6 @@ body, html {
 ## Summary
 
 * Plugin name: `grapesjs-style-gpickr`
-* Components
-    * `component-id-1`
-    * `component-id-2`
-    * ...
-* Blocks
-    * `block-id-1`
-    * `block-id-2`
-    * ...
 
 
 
@@ -52,7 +43,7 @@ body, html {
 
 | Option | Description | Default |
 |-|-|-
-| `option1` | Description option | `default value` |
+| `gpickrOpts` | `gpickr` configuration | `{}` |
 
 
 
