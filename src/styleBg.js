@@ -291,8 +291,7 @@ export default (editor, opts = {}) => {
     view: stack.view,
   });
 
-  sm.addBuiltIn("background", {
-    id: "background-bg",
+  sm.addBuiltIn("bg", {
     property: "background",
     type: "bg",
     detached: false,

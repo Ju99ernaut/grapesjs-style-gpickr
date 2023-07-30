@@ -1,6 +1,6 @@
 {
   "name": "grapesjs-style-gpickr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Grapesjs Style Gpickr",
   "main": "dist/index.js",
   "repository": {
