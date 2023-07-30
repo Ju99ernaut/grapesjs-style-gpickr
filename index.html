@@ -47,6 +47,9 @@
             },
           },
         });
+        const sm = editor.Styles;
+        sm.removeProperty("decorations", "background");
+        sm.addProperty("decorations", "bg");
       }, 100);
     </script>
   </body>
